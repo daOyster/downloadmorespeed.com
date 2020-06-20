@@ -1,5 +1,10 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
-    .button {
+.button {
     border: none;
     color: white;
     padding: 15px 32px;
@@ -77,13 +82,18 @@ header {
 
 .nav-links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 12px;
+    margin: auto;
 }
 
 .nav-links a {
     text-decoration: none;
-    padding: 0px 20px;
+    padding: 0px 8px;
     color: #f0f0f0;
+}
+
+.nav-banner {
+    margin-right: 50px;
 }
 
 .nav-profile-btn {
@@ -95,3 +105,16 @@ header {
 .main-content {
     margin-top: 50px;
 }
+
+.monospace {
+    font-family: "Lucida Console", Courier, monospace;
+} 
+.audiowide {
+    font-family: 'Audiowide';font-size: 22px;
+}
+.audiowide-md {
+    font-family: 'Audiowide';font-size: 22px;
+}
+.impact {
+    font-family: "Arial Black", Gadget, sans-serif;
+  }

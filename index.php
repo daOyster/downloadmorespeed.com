@@ -40,6 +40,7 @@
 <html prefix="og: https://ogp.me/ns#">
     <head>
         <link rel="stylesheet" href="/style.css"/>
+        <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
         <title>Download More Speed</title>
         <meta property="og:title" content="Download More Speed Now" />
         <meta property="og:description" content="Yes you can download faster internet speeds on this totally legit website. It's not a prank, you can be sure of that!" />
@@ -63,18 +64,7 @@
                 //alert("You've been tricked by daOyster!");
             }
         </script>
-        <header>
-            <h2 class="nav-banner">DownloadMoreSpeed.com</h2>
-            <nav class="nav-links">
-                <ul>
-                    <li><a href='/'>Home</a></li>
-                    <li><s>Learn</s></li>
-                    <li><s>Share</s></li>
-                    <li><s>Leaderboard</s></li>
-                </ul>
-            </nav>
-            <button class="nav-profile-btn">Profile</button>
-        </header>
+        <?php include('header.php'); ?>
         <br>
         <div class="main-content">
             <p><h1 id="gottem-header"> Download More Speed Now! </h1></p>
