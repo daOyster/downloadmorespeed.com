@@ -65,9 +65,8 @@
             }
         </script>
         <?php include('header.php'); ?>
-        <br>
-        <div class="main-content">
-            <p><h1 id="gottem-header"> Download more speed now and save more time in your life</h1></p>
+        <div style="background-image:url('img/backgroundRepeat_medium.png'); background-repeat:repeat; background-color:#152517; height:240px;">
+            <p id="gottem-header" class="impact-xl" style="margin-top:0; padding-top:100px; margin-bottom:0;  font-size:36px; background-image:url('img/backgroundRepeat_medium.png'); background-repeat:repeat; text-align:center;"><span style="margin-left:auto; padding:100; margin-right:auto;">Download more speed now and save time in your life</span></p>
         </div>    
         <div class="main-content">
             <img id="gottem-image" src="https://media.giphy.com/media/6JB4v4xPTAQFi/giphy.gif"/>

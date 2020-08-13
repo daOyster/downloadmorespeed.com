@@ -10,17 +10,17 @@
     ];
     ?>
 <header>
-    <h2 class="nav-banner audiowide">DownloadMoreSpeed.com</h2>
+    <h1 class="nav-banner audiowide-xl">DownloadMoreSpeed.com</h1>
     <nav class="nav-links">
         <ul>
             <?php
-                foreach($routes as $route){
-                    $selected = ( $currentPage == $route['route'] ? true : false);
-                    $label = ($selected ? '<b><u>' : '').$route['label'].($selected ? '</u></b>' : '');
-                    echo '<li><a class="audiowide-md" href="'.$route['route'].'">'.$label.'</a></li>';
-                }
+                // foreach($routes as $route){
+                //     $selected = ( $currentPage == $route['route'] ? true : false);
+                //     $label = ($selected ? '<b><u>' : '').$route['label'].($selected ? '</u></b>' : '');
+                //     echo '<li><a class="audiowide-md" href="'.$route['route'].'">'.$label.'</a></li>';
+                // }
             ?>
         </ul>
     </nav>
-    <button class="nav-profile-btn">Profile</button>
+    <button class="nav-profile-btn"><</button>
 </header>
