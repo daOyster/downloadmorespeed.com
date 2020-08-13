@@ -67,7 +67,9 @@
         <?php include('header.php'); ?>
         <br>
         <div class="main-content">
-            <p><h1 id="gottem-header"> Download More Speed Now! </h1></p>
+            <p><h1 id="gottem-header"> Download more speed now and save more time in your life</h1></p>
+        </div>    
+        <div class="main-content">
             <img id="gottem-image" src="https://media.giphy.com/media/6JB4v4xPTAQFi/giphy.gif"/>
             <h2><p id="gottem-text"> Yes, this is totally legit! Please click the button below.</p></h2>
             <button id="gottem-button" class="button button-green" onclick="btnClicked()">Download More Speed</button>
