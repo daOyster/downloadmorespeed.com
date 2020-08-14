@@ -39,6 +39,7 @@
 ?>
 <html prefix="og: https://ogp.me/ns#">
     <head>
+        <script src="https://kit.fontawesome.com/2979d6c829.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="/style.css"/>
         <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
         <title>Download More Speed</title>
@@ -65,9 +66,39 @@
             }
         </script>
         <?php include('header.php'); ?>
-        <div style="background-image:url('img/backgroundRepeat_medium.png'); background-repeat:repeat; background-color:#152517; height:240px;">
-            <p id="gottem-header" class="impact-xl" style="margin-top:0; padding-top:100px; margin-bottom:0;  font-size:36px; background-image:url('img/backgroundRepeat_medium.png'); background-repeat:repeat; text-align:center;"><span style="margin-left:auto; padding:100; margin-right:auto;">Download more speed now and save time in your life</span></p>
+        <div style="background-image:url('img/backgroundRepeat_medium.png'); background-repeat:repeat; background-color:#152517;">
+            <p id="gottem-header" class="impact-xl" style="margin-top:0; padding-top:100px; margin-bottom:0;  font-size:36px; background-image:url('img/backgroundRepeat_medium.png'); background-repeat:repeat; text-align:center;">
+                <span class="gottem-text" style="margin-left:auto; padding:100; margin-right:auto; text-align:center">Download more speed and save time in your life!</span><br>
+                <button id="gottem-button" class="button button-green" onclick="btnClicked()">Download More Speed!</button>
+            </p>
         </div>    
+        <div class="as-seen-on-container" style="margin-top:0px; padding-left:80px; padding-right:80px">
+            <div >
+                <p class="" style="margin-top:0px">As seen on: </p><br>
+                <div style="display:flex; flex-direction:horizontal" >
+                    <div style="display:inline">
+                        <i class="fas fa-air-freshener" style="font-size:48px; margin:20px;"></i>
+                        <p style="font-size:18px;">Green Tree Stuff</p>
+                    </div>
+                    <div style="display:block">
+                        <i class="fab fa-fly" style="font-size:48px; margin:20px;"></i>
+                        <p style="font-size:18px;">Up High</p>
+                    </div>
+                    <div style="display:block">
+                        <i class="fas fa-tachometer-alt" style="font-size:48px; margin:20px;"></i>
+                        <p style="font-size:18px;">Moe Speed</p>
+                    </div>
+                    <div style="display:block">
+                        <i class="fas fa-tape" style="font-size:48px; margin:20px;"></i>
+                        <p style="font-size:18px;">Roll Out</p>
+                    </div>
+                    <div style="display:block">
+                        <i class="fas fa-kiwi-bird" style="font-size:48px; margin:20px;"></i>
+                        <p style="font-size:18px;">Early Bird</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="main-content">
             <img id="gottem-image" src="https://media.giphy.com/media/6JB4v4xPTAQFi/giphy.gif"/>
             <h2><p id="gottem-text"> Yes, this is totally legit! Please click the button below.</p></h2>

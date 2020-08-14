@@ -9,8 +9,8 @@
         ['label'=>'About','route'=>'/about.php'],
     ];
     ?>
-<header>
-    <h1 class="nav-banner audiowide-xl">DownloadMoreSpeed.com</h1>
+<header class="nav-banner-header">
+    <h1 class="nav-banner impact-xl">DownloadMoreSpeed.com</h1>
     <nav class="nav-links">
         <ul>
             <?php

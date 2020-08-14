@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Arial Black", Gadget, sans-serif;
 }
 
 .button {
@@ -21,6 +22,16 @@
 
 .button-green {
     background-color: #40A026;
+}
+
+#gottem-button {
+    margin-top:80px;
+    margin-bottom:80px;
+}
+
+.gottem-text {
+    text-shadow: 0 0 30px #050505;
+    /* text-shadow: 0 0 8px rgba(0, 0, 0, 0.4); */
 }
 
 img {
@@ -47,7 +58,7 @@ body {
 }
 
 .footer {
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -109,7 +120,25 @@ header {
 }
 
 .main-content {
-    margin-top: 50px;
+    padding-top: 50px;
+    background-color: #d1d5d1;
+    color: #505050;
+}
+
+.as-seen-on-container {
+    background-color: #c1c5c1;
+    padding-top:20px;
+    padding-bottom:40px;
+    font-size: 28px;
+    z-index: 0;
+    color: #505050;
+    -webkit-box-shadow: 5px 6px 5px 1px rgba(0,0,0,0.70);
+    -moz-box-shadow: 5px 6px 5px 1px rgba(0,0,0,0.70);
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.70);
+}
+
+.nav-banner-header{
+    position: fixed;
 }
 
 .monospace {
